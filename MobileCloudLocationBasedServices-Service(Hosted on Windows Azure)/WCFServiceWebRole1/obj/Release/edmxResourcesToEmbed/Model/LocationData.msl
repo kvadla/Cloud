@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="teamcloudera_dbModelStoreContainer" CdmEntityContainer="teamcloudera_dbEntities">
+    <EntitySetMapping Name="file_details">
+      <EntityTypeMapping TypeName="teamcloudera_dbModel.file_details">
+        <MappingFragment StoreEntitySet="file_details">
+          <ScalarProperty Name="fileid" ColumnName="fileid" />
+          <ScalarProperty Name="filename" ColumnName="filename" />
+          <ScalarProperty Name="fileloc" ColumnName="fileloc" />
+          <ScalarProperty Name="fileurl" ColumnName="fileurl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

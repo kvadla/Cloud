@@ -1,0 +1,2 @@
+G:\2-Semester\CloudComputing\Project\MobileCloudLocationBasedServices\MobileCloudLocationBasedServices\bin\Debug\ServiceConfiguration.cscfg
+G:\2-Semester\CloudComputing\Project\MobileCloudLocationBasedServices\MobileCloudLocationBasedServices\bin\Debug\ServiceDefinition.csdef

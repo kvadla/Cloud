@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="teamcloudera_dbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="teamcloudera_dbEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="file_details" EntityType="teamcloudera_dbModel.file_details" />
+  </EntityContainer>
+  <EntityType Name="file_details">
+    <Key>
+      <PropertyRef Name="fileid" />
+    </Key>
+    <Property Name="fileid" Type="Int32" Nullable="false" />
+    <Property Name="filename" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fileloc" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="fileurl" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+</Schema>
